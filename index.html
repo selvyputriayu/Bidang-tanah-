@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Petak Bidang Tanah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Petak Bidang Tanah</h1>
+
+<div class="container">
+    <div class="tanah" id="tanah1">
+        Bidang A
+    </div>
+
+    <div class="info">
+        <img src="rumah.jpg" alt="Foto Rumah" class="foto-rumah">
+
+        <p><strong>Nomor Bidang:</strong> A-01</p>
+        <p><strong>Pemilik:</strong> Siti Aminah</p>
+        <p><strong>Luas:</strong> <span id="luas">200</span> m²</p>
+        <p><strong>Lokasi:</strong> Desa Ngadiluwih, Kab. Kediri</p>
+
+        <a href="https://maps.google.com/?q=-7.8166,112.0115" target="_blank" class="maps">
+            Lihat Lokasi di Google Maps
+        </a>
+
+        <button onclick="ubahLuas()">Ubah Luas</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
